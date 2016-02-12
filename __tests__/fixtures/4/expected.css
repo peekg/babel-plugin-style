@@ -1,0 +1,15 @@
+.heading0 {
+font-family: 'Open Sans', sans-serif;
+font-size: 75%;
+line-height: 1.35;
+color: black;
+text-decoration: none;
+}
+.heading0 :hover {
+text-decoration: underline;
+}
+@media (max-width: 600px) {
+.heading0 {
+font-size: 50%;
+}
+}

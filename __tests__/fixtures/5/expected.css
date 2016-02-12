@@ -1,0 +1,50 @@
+@media (max-width: 40em) {
+.className span {
+position: absolute;
+left: -10000px;
+top: auto;
+width: 1px;
+height: 1px;
+overflow: hidden;
+}
+}
+@media (max-width: 41em) {
+.className span {
+color: grey;
+}
+}
+@media (max-width: 42em) {
+.className span {
+color: yellow;
+}
+}
+.className span {
+color: blue;
+}
+.className a :hover {
+text-decoration: underline;
+}
+.className a {
+color: red;
+}
+.className div {
+color: green;
+}
+.className {
+color: darkgreen;
+}
+@media (max-width: 600px) {
+.heading0 {
+font-size: 50%;
+}
+}
+.heading0 :hover {
+text-decoration: underline;
+}
+.heading0 {
+font-family: 'Open Sans', sans-serif;
+font-size: 75%;
+line-height: 1.35;
+color: black;
+text-decoration: none;
+}
